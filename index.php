@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Jaxbot's Lolcommits</title>
+<style>
+	body {
+		text-align: center;
+	}
+</style>
 </head>
 <body>
 <h1>Jaxbot's Lolcommits</h1>
