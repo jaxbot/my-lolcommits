@@ -10,7 +10,7 @@ These images are generated whenever I commit code, thanks to <a href="https://gi
 
 <?php
 
-$files = scandir("img/");
+$files = scandir("img/", SCANDIR_SORT_DESCENDING);
 
 foreach ($files as $file) {
 	if (substr($file, 0, 1) == ".") continue;
